@@ -11,6 +11,6 @@ describe('bnz home page', () => {
 describe('it will find the content on the page' , () => {
     it('finds the content on the page,"Register"', () => {
         cy.visit('bnz.co.nz')
-        cy.contains('Register')
+        cy.contains('Register').click()
     })
 })
